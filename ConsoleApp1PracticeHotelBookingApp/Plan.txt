@@ -1,0 +1,20 @@
+You have 50 rooms (30 singles and 20 doubles) available some of which are already full.
+Present the user with a menu to book, check in and check out
+Booking in menu ask user for surname and how many guests 
+if there is more than one guest then a double room is required and you will need the details of the second guest. 
+However the choice of room is up to the guest(s) they may want a single or a double room.
+If the single rooms are full and the double rooms are not full you can only offer remaining rooms as the doubles 
+and vice versa. If for example a party of 3 guests turn up and the hotel only has 2 rooms left 
+you need to let the guests know before they decide to book.
+Note there is no requirement for dates and length of stay this is simple book to allocate, 
+check in to occupy check out to free room up
+The user can then check in so ask for name to confirm booking, number of party and check each guest in. 
+Occupy the room for each guest.
+The user can then check in so ask for name to confirm booking, number of party and check each guest in. 
+Free the room for each guest.
+Admin section leads to another sub menu how many guests there in total and how many have booked a room 
+and how many are currently occupying rooms. Report of the total rooms how many single rooms are free 
+and how many double rooms are free to allocate. A room is only free to allocate if it is not booked or occupied. 
+So report on rooms allocated and those occupied.
+
+Room Number, Type, Allocated/Occupied/Empty, GuestName

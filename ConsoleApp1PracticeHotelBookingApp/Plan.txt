@@ -1,4 +1,5 @@
-You have 50 rooms (30 singles and 20 doubles) available some of which are already full.
+Scope of program:
+You have 10 rooms (5 singles and 5 doubles) available
 Present the user with a menu to book, check in and check out
 Booking in menu ask user for surname and how many guests 
 if there is more than one guest then a double room is required and you will need the details of the second guest. 
@@ -10,11 +11,29 @@ Note there is no requirement for dates and length of stay this is simple book to
 check in to occupy check out to free room up
 The user can then check in so ask for name to confirm booking, number of party and check each guest in. 
 Occupy the room for each guest.
-The user can then check in so ask for name to confirm booking, number of party and check each guest in. 
+When the user check outs ask for name to confirm room, number of party and check each guest out.
 Free the room for each guest.
 Admin section leads to another sub menu how many guests there in total and how many have booked a room 
 and how many are currently occupying rooms. Report of the total rooms how many single rooms are free 
 and how many double rooms are free to allocate. A room is only free to allocate if it is not booked or occupied. 
 So report on rooms allocated and those occupied.
 
-Room Number, Type, Allocated/Occupied/Empty, GuestName
+
+Requirements:
+1. Present the user with a menu to book, check in and check out
+2. Booking in menu ask user for surname and how many guests 
+3. If there is more than one guest then a double room is required and you will need the details of the second guest.
+4. If the single rooms are full and the double rooms are not full you can only offer remaining rooms as the doubles 
+and vice versa.
+5. When The user checks in ask for name to confirm booking, number of party and check each guest in.
+6. Let the guests know before they decide to book if there are not enough rooms for their party
+7. Occupy the room for each guest when they are checked in
+8. When the user check outs ask for name to confirm room, number of party and check each guest out, free the room up.
+9. Admin section leads to another sub menu how many guests there in total and 
+10. Report how many guests have booked a room.
+11. Report how many guests  are currently occupying rooms
+12. Report of the total rooms how many single rooms are free  to allocate. 
+13. Report of the total rooms how many double rooms are free to allocate.
+14. A room is only free to allocate if it is not booked or occupied. So report on rooms booked and those occupied.
+15. You have 10 rooms (5 singles and 5 doubles) available.
+

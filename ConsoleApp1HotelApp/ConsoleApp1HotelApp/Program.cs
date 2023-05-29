@@ -16,11 +16,12 @@ using ConsoleApp1HotelApp;
 
 var hotelRooms = BookingLogic.InitialiseHotelRooms();
 
-ConsoleMessages.WelcomeUser();
+ConsoleMessages.WelcomeUser(hotelRooms);
 
-BookingLogic.BookARoom(hotelRooms);
+//BookingLogic.AskToContinue();
+//BookingLogic.BookARoom(hotelRooms);
 
-ConsoleMessages.ShowRoomStatus(hotelRooms);
+//ConsoleMessages.ShowAllRoomStatus(hotelRooms);
 
 
 

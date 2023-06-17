@@ -25,5 +25,5 @@ Console.WriteLine($"R={userColour2.Red}, G={userColour2.Green}, B={userColour2.B
 
 
 
-Colour colour = new Colour(1, 2, 3);
-Console.WriteLine($"{colour.Red}, {colour.Green}, {colour.Blue}");
+//Colour colour = new Colour(1, 2, 3);
+//Console.WriteLine($"{colour.Red}, {colour.Green}, {colour.Blue}");

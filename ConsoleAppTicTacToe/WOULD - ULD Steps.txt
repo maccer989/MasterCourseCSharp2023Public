@@ -1,0 +1,59 @@
+
+UI Design
+=========
+
+Welcome message tell Player1 they go first and are X, Player 2 will go second and are O
+Display game results so far this should be blank as no matches played (Player1:0-0:Player2; Drawn:0)
+Display grid
+Ask Player1 for numbered square
+	Determine if valid square
+	Check results
+	Store square
+Display updated grid
+Ask Player2 for numbered square
+	Determine if valid square
+	Check results
+	Store square
+Display updated grid
+Loop until someone wins
+Print out winners name,and the current match scores (Player1:2-1:Player2; Drawn:1)
+If there is no winner and all squares are filled print out Draw and the current match scores (Player1:2-1:Player2; Drawn:1)
+Ask user to continue or exit
+
+UI Design
+=========
+
+ 1 | 2 | 3 
+___|___|___
+ 4 | 5 | 6 
+___|___|___
+ 7 | 8 | 9 
+
+
+ O | 2 | X 
+___|___|___
+ 4 | X | 6 
+___|___|___
+ X | O | O 
+
+Logic Design
+============
+Method:Welcome user
+Method:Create the grid
+Method:Print out the grid
+Method:Get Number placement
+Method:Determine if valid placement and outcome
+Method:Store placement information <list> of gridspot
+Method:Print winner or draw and match results
+
+
+
+Data Design
+===========
+GridSpot
+	SpotNumber - int
+	Staus - string
+
+
+
+  

@@ -1,0 +1,77 @@
+WOULD
+
+W. alk through the project
+O. pen up the requirements
+U. ser interface design
+L. ogic design
+D. ata design - models
+main model called person and asepaate model list for address and a separate model for telephone numbers
+
+W & O
+
+Basic Requirements
+==================
+
+Build a small two player console game of TocTacToe (Noughts and crosses).
+There will be a 9 square grid numbered 1 - 9.
+Players will take it in turns to place either an X or a O on the grid.
+Return the name of the winner of each game
+If it is a draw announce that the game is drawn
+Ask the user to exit or continue with another game
+Return the total of matches and score when a new game continues or the user exits the application
+
+Future requirement.
+A match will consist of best out of 3 games.
+If a draw still happens after 3 games then sudden death ensues when the next player that wins wins the match.
+
+General Flow
+============
+
+Two users open up the console
+The game results are displayed showing match number and player 1 and player 2 results
+A grid of 9 squares numbered 1-9 is displayed
+Player 1 will be assigned X
+player 2 will be assigned O
+Player 1 will be asked to go first and to choose a square number.
+	Determine if the square number is valid
+	Determine if the Square number has not already been filled
+	Place an X on the chosen square number
+	Determine if the match is over
+Player 2 will be asked to choose a square nunber
+	Determine if the square number is valid
+	Determine if the Square number has not already been filled
+	Place an O on the chosen square number
+	Determine if the match is over
+
+Each player will take turns to place an X or an O
+The game is over when eithera winner who gets 3 in a line or all 9 squares are filled and is a draw.
+The winning Player will be identified
+The games results will be announced
+Ask the user to start a new match or exit
+
+Additional Questions/requiremenst
+=================================
+1.How is a winner determined? The first player to get 3 in a line horizontal, vertical or diagonal.
+
+Requirements
+============
+
+1. 2 player game
+2. 9 square grid with numbers 1-9
+3. Player 1 goes first
+4. Player 1 is assigned X
+5. Player 2 goes second
+6. Player 2 is assigned O
+7. Each player takes turns until a winner is decided
+8. The first player to get 3 in a line horizontal, vertical or diagonal wins
+9. If there is no winner and all squares are filled then a draw is declared
+10. At the end of each match there will be an option to continue or exit 
+11. A winner or a draw will be declared after each match
+12. Before each match begins the results of all matches and the number of successive games will be displayed before the grid is displayed
+13. When the user exits the results of all matches and the number of successive games will be displayed
+14. Each player turn will return a validation warning if the numbered square does not exist or has already been filled and 
+will be asked to keep trying until the selection is valid.
+
+
+
+
